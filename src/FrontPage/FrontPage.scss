@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+
+}
+@keyframes textShow {
+  from {color: rgba(0, 0, 0, 0)}
+  to {color: black;}
+}
+.grid {
+  color: black;
+  display: flex;
+  padding: 0px !important;
+  height: 1000px;
+  justify-content: center;
+  margin-top: 0px !important;
+}
+.grid-item {
+  color: black;
+  text-align: center;
+  padding-top: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.grid-item-title {
+  color: black;
+}
+.grid-item-text {
+  margin-top: 15px !important;
+  color: black;
+  max-width: 290px;
+}
+.grid-img {
+  width: 100px;
+}
+.text-anim {
+    animation-name: textShow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
